@@ -1,1 +1,52 @@
-{ "user": [] }
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Staff 1"
+    },
+    {
+      "id": 2,
+      "name": "Staff 2"
+    },
+    {
+      "id": 3,
+      "name": "Staff 3"
+    },
+    {
+      "id": 4,
+      "name": "Staff 4"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Delivery Management",
+      "personId": 1,
+      "organization": "Delivery Team"
+    },
+    {
+      "id": 2,
+      "name": "Wholesales",
+      "personId": 2,
+      "organization": "Wholesales Direct"
+    },
+    {
+      "id": 3,
+      "name": "Material Management System",
+      "personId": 2,
+      "organization": "Material Team"
+    },
+    {
+      "id": 4,
+      "name": "Headquarters Management system",
+      "personId": 3,
+      "organization": "Headquarters"
+    },
+    {
+      "id": 5,
+      "name": "Delivery Route Planning System",
+      "personId": 4,
+      "organization": "Planning Team"
+    }
+  ]
+}

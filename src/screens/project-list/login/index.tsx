@@ -1,9 +1,10 @@
+import { AuthForm } from 'model';
 import React, { FormEvent } from 'react';
 
 export const LoginScreen = () => {
   const apiUrl = process.env.REACT_APP_API_URL;
 
-  const login = (param: { username: string; password: string }) => {
+  const login = (param: AuthForm) => {
     fetch(`${apiUrl}/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

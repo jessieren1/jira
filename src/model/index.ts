@@ -4,6 +4,7 @@ export interface User {
   email: string;
   title: string;
   organization: string;
+  token: string;
 }
 
 export interface SearchPanelProps {
@@ -26,4 +27,9 @@ export interface Project {
 export interface ListProps {
   list: Project[];
   users: User[];
+}
+
+export interface AuthForm {
+  username: string;
+  password: string;
 }
